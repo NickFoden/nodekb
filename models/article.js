@@ -1,7 +1,7 @@
 let mongoose = require('mongoose');
 
 //article schema
-let articleSchema = mongoose.schema({
+let articleSchema = mongoose.Schema({
 	title:{
 		type: String,
 		required: true
